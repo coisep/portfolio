@@ -51,6 +51,9 @@ const Navbar: React.FC = () => {
               ...(select === "projects" && { textShadow: "10px 10px 20px cyan" }),
             }} onClick={handleProjects}>Projects</button>
         </div>
+        <div>
+          
+        </div>
       </nav>
       {select === "home" && <Home />}
       {select === "about" && <AboutMe />}
