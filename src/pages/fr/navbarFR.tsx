@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
             }}
             onClick={handleAboutMe}
           >
-            Concernant moi
+            Sur Moi
           </button>
         </div>
         <div>
