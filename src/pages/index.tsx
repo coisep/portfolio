@@ -26,10 +26,10 @@ export default function Home() {
   };
 
   return (
-    <div className="relative">
-      <div className="absolute top-10 right-10 text-green-700">
+    <div>
+      <div className="absolute bottom-10 lg:top-10 right-10">
         <nav>
-          <div className="nav-content">
+          <div className="nav">
             <div className="dropdown">
               <button
                 onClick={toggleDropdown}
