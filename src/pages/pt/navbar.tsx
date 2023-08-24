@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
             }}
             onClick={handleAboutMe}
           >
-            About Me
+            Sobre Mim
           </button>
         </div>
         <div>
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
             }`}
             style={{
               ...(select === "projects" && { textShadow: "10px 10px 20px cyan" }),
-            }} onClick={handleProjects}>Projects</button>
+            }} onClick={handleProjects}>Projectos</button>
         </div>
         <div>
           

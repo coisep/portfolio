@@ -21,10 +21,7 @@ const AboutMe: React.FC = () => {
           assim, a oportunidade de realizar um curso de programação web através
           do projeto Bytes4Future (<Link href='https://www.bytes4future.pt/' className="hover:text-red-500">www.bytes4future.pt</Link>). </p>Esta formação
           permitiu-me atualizar conhecimentos e estar preparado para reingressar
-          no mercado de trabalho nesta área. Motivado para colocar em prática
-          estas competências, surgiu a ideia de criar uma aplicação web para a
-          melhoria da mobilidade em Marco de Canaveses, uma vez que eu próprio
-          sinto esse problema.
+          no mercado de trabalho nesta área.
         </h1>
       </div>
   
