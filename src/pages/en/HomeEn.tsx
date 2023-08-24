@@ -18,6 +18,7 @@ const Home: React.FC = () => {
       </div>
       
       <div className="pt-20">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className="text-3xl text-green-700"> Hi, my name is João Luís, I'm WEB FullStack developer </p>
         <div className="flex flex-wrap items-center justify-center gap-14 pt-20  ">
             <Link href='/CV - João Francisco Monteiro Luís en.pdf' target="_blank">

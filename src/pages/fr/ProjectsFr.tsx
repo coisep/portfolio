@@ -25,7 +25,8 @@ const Projects: React.FC = () => {
             className=""
           />
           <h3 className="text-green-700 pt-4">
-          Projet final du bootCamp (Boutique de location d'équipements de camping)
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+                      Projet final du bootCamp (Boutique de location d'équipements de camping)
           </h3>
         </div>
         <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
@@ -59,8 +60,8 @@ const Projects: React.FC = () => {
             alt="joaoLuis"
             className=""
           />
-          <h3 className="text-green-700 pt-4">Aperçu du site web Proveit à Marco de Canaveses</h3>
-        </div>
+{/* eslint-disable-next-line react/no-unescaped-entities */}
+Aperçu du site web Proveit à Marco de Canaveses        </div>
       </div>
       </div>
 
