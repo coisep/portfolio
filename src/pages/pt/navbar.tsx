@@ -23,12 +23,17 @@ const Navbar: React.FC = () => {
     <div className="grid item-center pb-10">
       <nav className="flex flex-row justify-center w-full pl-20 text-5xl pb-20">
         <div>
-          <button  className={`flex gap-10 p-9 text-green-700 hover:text-red-500  ${
+          <button
+            className={`flex gap-10 p-9 text-green-700 hover:text-red-500  ${
               select === "home" ? "text-yellow-500" : ""
             }`}
             style={{
               ...(select === "home" && { textShadow: "10px 10px 20px cyan" }),
-            }} onClick={handleHome}>Home</button>
+            }}
+            onClick={handleHome}
+          >
+            Home
+          </button>
         </div>
         <div>
           <button
@@ -44,16 +49,21 @@ const Navbar: React.FC = () => {
           </button>
         </div>
         <div>
-          <button  className={`flex gap-10 p-9 text-green-700 hover:text-red-500  ${
+          <button
+            className={`flex gap-10 p-9 text-green-700 hover:text-red-500  ${
               select === "projects" ? "text-yellow-500" : ""
             }`}
             style={{
-              ...(select === "projects" && { textShadow: "10px 10px 20px cyan" }),
-            }} onClick={handleProjects}>Projectos</button>
+              ...(select === "projects" && {
+                textShadow: "10px 10px 20px cyan",
+              }),
+            }}
+            onClick={handleProjects}
+          >
+            Projectos
+          </button>
         </div>
-        <div>
-          
-        </div>
+        <div></div>
       </nav>
       {select === "home" && <Home />}
       {select === "about" && <AboutMe />}

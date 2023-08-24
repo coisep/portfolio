@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
             className=""
           />
           <h3 className="text-green-700 pt-4">
-          Projet de mobilité pour Marco de Canaveses
+            Projet de mobilité pour Marco de Canaveses
           </h3>
         </div>
         <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
@@ -26,7 +26,8 @@ const Projects: React.FC = () => {
           />
           <h3 className="text-green-700 pt-4">
             {/* eslint-disable-next-line react/no-unescaped-entities */}
-                      Projet final du bootCamp (Boutique de location d'équipements de camping)
+            Projet final du bootCamp (Boutique de location d'équipements de
+            camping)
           </h3>
         </div>
         <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
@@ -40,32 +41,39 @@ const Projects: React.FC = () => {
           <h3 className="text-green-700 pt-4">Login interface</h3>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-14 pt-10">
-        <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
-          <Image
-            src="/urlshortnerTESTE.png"
-            width={400}
-            height={400}
-            alt="joaoLuis"
-            className=""
-          />
-          <h3 className="text-green-700 pt-4">UrlShortner</h3>
+          <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
+            <Image
+              src="/urlshortnerTESTE.png"
+              width={400}
+              height={400}
+              alt="joaoLuis"
+              className=""
+            />
+            <h3 className="text-green-700 pt-4">UrlShortner</h3>
+          </div>
         </div>
+        <div className="flex flex-wrap items-center justify-center gap-14 pt-10">
+          <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
+            <Image
+              src="/proveit.png"
+              width={400}
+              height={400}
+              alt="joaoLuis"
+              className=""
+            />
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            Aperçu du site web Proveit à Marco de Canaveses{" "}
+          </div>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-14 pt-10">
+          <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
+           
+            <h1 className="text-green-700 pt-4">
+             More Projects Coming Soon! 
+            </h1>
+          </div>
+          </div>
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-14 pt-10">
-        <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
-          <Image
-            src="/proveit.png"
-            width={400}
-            height={400}
-            alt="joaoLuis"
-            className=""
-          />
-{/* eslint-disable-next-line react/no-unescaped-entities */}
-Aperçu du site web Proveit à Marco de Canaveses        </div>
-      </div>
-      </div>
-
-
     </>
   );
 };

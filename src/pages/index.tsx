@@ -5,7 +5,6 @@ import NavbarFR from "./fr/navbarFR";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export default function Home() {
   const [select, setSelect] = useState<string>("pt");
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
@@ -27,7 +26,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="absolute bottom-10 lg:top-10 right-10">
+      <div className="flex justify-center bottom-10 lg:absolute lg:top-10 lg:right-10">
         <nav>
           <div className="nav">
             <div className="dropdown">
@@ -47,14 +46,17 @@ export default function Home() {
               </button>
               {isDropdownOpen && (
                 <div id="dropdownNavbar" className="z-10 font-normal divide-y">
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                  <ul
+                    className="py-2 text-sm text-gray-700 dark:text-gray-400"
+                    aria-labelledby="dropdownLargeButton"
+                  >
                     <li>
                       <Link
                         href="#"
                         className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         onClick={() => handleLanguageChange("pt")}
                       >
-                        <Image src="/pt.png" width={45} height={45} alt="pt"/>
+                        <Image src="/pt.png" width={45} height={45} alt="pt" />
                       </Link>
                     </li>
                     <li>
@@ -63,7 +65,7 @@ export default function Home() {
                         className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         onClick={() => handleLanguageChange("en")}
                       >
-                         <Image src="/gb.png" width={45} height={45} alt="en"/>
+                        <Image src="/gb.png" width={45} height={45} alt="en" />
                       </Link>
                     </li>
                     <li>
@@ -72,11 +74,10 @@ export default function Home() {
                         className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         onClick={() => handleLanguageChange("fr")}
                       >
-                         <Image src="/fr.png" width={45} height={45} alt="fr"/>
+                        <Image src="/fr.png" width={45} height={45} alt="fr" />
                       </Link>
                     </li>
                   </ul>
-
                 </div>
               )}
             </div>

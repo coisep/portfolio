@@ -40,32 +40,40 @@ const Projects: React.FC = () => {
           <h3 className="text-green-700 pt-4">Login interface</h3>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-14 pt-10">
-        <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
-          <Image
-            src="/urlshortnerTESTE.png"
-            width={400}
-            height={400}
-            alt="joaoLuis"
-            className=""
-          />
-          <h3 className="text-green-700 pt-4">UrlShortner</h3>
+          <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
+            <Image
+              src="/urlshortnerTESTE.png"
+              width={400}
+              height={400}
+              alt="joaoLuis"
+              className=""
+            />
+            <h3 className="text-green-700 pt-4">UrlShortner</h3>
+          </div>
         </div>
-      </div>
-      <div className="flex flex-wrap items-center justify-center gap-14 pt-10">
-        <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
-          <Image
-            src="/proveit.png"
-            width={400}
-            height={400}
-            alt="joaoLuis"
-            className=""
-          />
-          <h3 className="text-green-700 pt-4">Previa website Proveit no Marco de Canaveses</h3>
+        <div className="flex flex-wrap items-center justify-center gap-14 pt-10">
+          <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
+            <Image
+              src="/proveit.png"
+              width={400}
+              height={400}
+              alt="joaoLuis"
+              className=""
+            />
+            <h3 className="text-green-700 pt-4">
+              Previa website Proveit no Marco de Canaveses
+            </h3>
+          </div>
         </div>
+        <div className="flex flex-wrap items-center justify-center gap-14 pt-10">
+          <div className="bg-gray-100 flex flex-col items-center p-4 rounded-lg">
+           
+            <h1 className="text-green-700 pt-4">
+             More Projects Coming Soon! 
+            </h1>
+          </div>
+          </div>
       </div>
-      </div>
-
-
     </>
   );
 };
