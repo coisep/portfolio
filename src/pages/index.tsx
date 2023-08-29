@@ -26,13 +26,13 @@ export default function Home() {
 
   return (
     <div>
-      <div className="absolute justify-center bottom-10 lg:top-10 right-10">
-        <nav>
+      <div className=" justify-center lg:top-10 right-10">
+        <nav className="sticky bottom-0  justify-center">
           <div className="nav">
             <div className="dropdown">
               <button
                 onClick={toggleDropdown}
-                className="flex items-center justify-between w-full py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 "
+                className="flex items-center justify-center w-full py-2 pl-3 pr-4 border-b border-gray-100 hover:bg-gray-50 "
               >
                 <Image
                   src={
@@ -42,14 +42,12 @@ export default function Home() {
                   alt={select}
                   width={45}
                   height={45}
+                  
                 />
               </button>
               {isDropdownOpen && (
-                <div id="dropdownNavbar" className="z-10 divide-y">
-                  <ul
-                    className="py-2"
-                    aria-labelledby="dropdownLargeButton"
-                  >
+                <div id="dropdownNavbar" className="z-10 divide-y flex justify-center">
+                  <ul className="py-2" aria-labelledby="dropdownLargeButton" >
                     <li>
                       <Link
                         href="#"

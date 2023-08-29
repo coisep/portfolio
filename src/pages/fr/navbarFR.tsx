@@ -4,6 +4,7 @@ import AboutMeFR from "./AboutMeFR";
 import ProjectsFR from "./ProjectsFr";
 import HomeFR from "./HomeFR";
 
+
 const Navbar: React.FC = () => {
   const [select, setSelect] = useState("home");
 
@@ -63,7 +64,6 @@ const Navbar: React.FC = () => {
             Projets
           </button>
         </div>
-        <div></div>
       </nav>
       {select === "home" && <HomeFR />}
       {select === "about" && <AboutMeFR />}
